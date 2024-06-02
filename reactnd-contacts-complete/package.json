@@ -16,7 +16,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "deploy": "powershell -ExecutionPolicy Bypass -File ./bin/deploy.ps1"
+    "build": "react-scripts build"
   }
 }
