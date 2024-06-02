@@ -32,6 +32,6 @@ jobs:
           command: |
             npm run backend:build
       - run:
-          name: Deploy App
+          name: Deploy Frontend
           command: |
-            npm run frontend:deploy            
+            powershell -ExecutionPolicy Bypass -File ./bin/deploy.ps1           
