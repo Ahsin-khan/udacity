@@ -5,6 +5,9 @@ import CreateContact from './CreateContact'
 import * as ContactsAPI from './utils/ContactsAPI'
 
 //this is application extension
+//this is application extension
+//this is application extension
+
 class App extends Component {
   state = {
     contacts: []
