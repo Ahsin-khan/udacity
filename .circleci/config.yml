@@ -34,4 +34,4 @@ jobs:
       - run:
           name: Deploy Frontend
           command: |
-            powershell -ExecutionPolicy Bypass -File ./bin/deploy.ps1           
+            ./bin/deploy.ps1          
